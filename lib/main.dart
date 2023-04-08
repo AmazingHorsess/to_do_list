@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
+      themeMode: ThemeMode.dark,
       title: 'ToDo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
